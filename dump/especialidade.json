@@ -1,0 +1,30 @@
+{ 
+    "_id" : ObjectId("5a635ad0178fc75ba84aadfe"), 
+    "_class" : "tech.paiter.medtest.models.Especialidade", 
+    "descricao" : "Cardiologia"
+}
+{ 
+    "_id" : ObjectId("5a635ae7178fc75ba84aadff"), 
+    "_class" : "tech.paiter.medtest.models.Especialidade", 
+    "descricao" : "Pediatria"
+}
+{ 
+    "_id" : ObjectId("5a635af1178fc75ba84aae00"), 
+    "_class" : "tech.paiter.medtest.models.Especialidade", 
+    "descricao" : "Pneumologia"
+}
+{ 
+    "_id" : ObjectId("5a635af8178fc75ba84aae01"), 
+    "_class" : "tech.paiter.medtest.models.Especialidade", 
+    "descricao" : "Sexologia"
+}
+{ 
+    "_id" : ObjectId("5a635b2a178fc75ba84aae02"), 
+    "_class" : "tech.paiter.medtest.models.Especialidade", 
+    "descricao" : "Imonologia"
+}
+{ 
+    "_id" : ObjectId("5a635b38178fc75ba84aae03"), 
+    "_class" : "tech.paiter.medtest.models.Especialidade", 
+    "descricao" : "Dermatologia"
+}

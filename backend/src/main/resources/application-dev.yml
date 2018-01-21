@@ -1,0 +1,18 @@
+# config port server
+server:
+  contextPath:
+  port: 8080
+
+#spring:
+#  data:
+#    mongodb:
+#      database: maisVida # Database name.
+#      # field-naming-strategy: # Fully qualified name of the FieldNamingStrategy to use.
+#      #grid-fs-database: # GridFS database name.
+#      host: localhost # Mongo server host.
+#      # password: # Login password of the mongo server.
+#      port: 27017 # Mongo server port.
+#      repositories:
+#        enabled: true # Enable Mongo repositories.
+#      uri: mongodb://localhost/maisVida # Mongo database URI. When set, host and port are ignored.
+#      # username: # Login user of the mongo server.

@@ -1,0 +1,68 @@
+{ 
+    "_id" : ObjectId("5a63e3e2a8b02707a2e16a05"), 
+    "_class" : "tech.paiter.medtest.models.Medico", 
+    "primeiroNome" : "sdfsdf", 
+    "ultimoNome" : "sdfsdf", 
+    "email" : "sdfsdfs@gmail.com", 
+    "ativo" : "true", 
+    "cidade" : "ererer", 
+    "especialidade" : DBRef("especialidade", ObjectId("5a635ae7178fc75ba84aadff")), 
+    "status" : DBRef("status", ObjectId("5a6383b9178fc70897ed4dba")), 
+    "estado" : DBRef("estado", ObjectId("5a635d36178fc75e3204e546"))
+}
+{ 
+    "_id" : ObjectId("5a63e403a8b02707a2e16a06"), 
+    "_class" : "tech.paiter.medtest.models.Medico", 
+    "primeiroNome" : "dsfsdf", 
+    "ultimoNome" : "adfasdf", 
+    "email" : "asdfsdfas@gmail.com", 
+    "ativo" : "true", 
+    "cidade" : "sfaddf", 
+    "especialidade" : DBRef("especialidade", ObjectId("5a635ad0178fc75ba84aadfe")), 
+    "status" : DBRef("status", ObjectId("5a6383b9178fc70897ed4dba")), 
+    "estado" : DBRef("estado", ObjectId("5a635d36178fc75e3204e546"))
+}
+{ 
+    "_id" : ObjectId("5a63e419a8b02707a2e16a07"), 
+    "_class" : "tech.paiter.medtest.models.Medico", 
+    "primeiroNome" : "asfasdf", 
+    "ultimoNome" : "asdfasdf", 
+    "email" : "asdfasdf@sdfsdf", 
+    "ativo" : "false", 
+    "cidade" : "", 
+    "especialidade" : DBRef("especialidade", ObjectId("5a635af1178fc75ba84aae00")), 
+    "status" : DBRef("status", ObjectId("5a6383c8178fc70897ed4dbb")), 
+    "estado" : DBRef("estado", ObjectId("5a635d36178fc75e3204e546"))
+}
+{ 
+    "_id" : ObjectId("5a63e4cba8b0270eb70d4aac"), 
+    "_class" : "tech.paiter.medtest.models.Medico", 
+    "primeiroNome" : "fsdfsd", 
+    "ultimoNome" : "sdfsdf", 
+    "email" : "sdfsdf@gmail.com", 
+    "ativo" : true, 
+    "cidade" : "sdfsdfsdf", 
+    "especialidade" : DBRef("especialidade", ObjectId("5a635ad0178fc75ba84aadfe")), 
+    "status" : DBRef("status", ObjectId("5a6383c8178fc70897ed4dbb")), 
+    "estado" : DBRef("estado", ObjectId("5a635d36178fc75e3204e546"))
+}
+{ 
+    "_id" : ObjectId("5a635af8178fc75ba84aae01"), 
+    "_class" : "tech.paiter.medtest.models.Medico", 
+    "primeiroNome" : "Camila", 
+    "ultimoNome" : "Paiter", 
+    "email" : "cp@gmail.com", 
+    "ativo" : false
+}
+{ 
+    "_id" : ObjectId("5a63e5bfa8b0270eb70d4aad"), 
+    "_class" : "tech.paiter.medtest.models.Medico", 
+    "primeiroNome" : "Coisa", 
+    "ultimoNome" : "Chata", 
+    "email" : "cc@gja8.com", 
+    "ativo" : true, 
+    "cidade" : "cccccc", 
+    "especialidade" : DBRef("especialidade", ObjectId("5a635af8178fc75ba84aae01")), 
+    "status" : DBRef("status", ObjectId("5a6383b9178fc70897ed4dba")), 
+    "estado" : DBRef("estado", ObjectId("5a635d41178fc75e3204e547"))
+}

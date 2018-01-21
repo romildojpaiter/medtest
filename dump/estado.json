@@ -1,0 +1,30 @@
+{ 
+    "_id" : ObjectId("5a635d1f178fc75e3204e545"), 
+    "_class" : "tech.paiter.medtest.models.Estado", 
+    "nome" : "Mato Grosso", 
+    "sigla" : "MT"
+}
+{ 
+    "_id" : ObjectId("5a635d36178fc75e3204e546"), 
+    "_class" : "tech.paiter.medtest.models.Estado", 
+    "nome" : "Mato Grosso do Sul", 
+    "sigla" : "MS"
+}
+{ 
+    "_id" : ObjectId("5a635d41178fc75e3204e547"), 
+    "_class" : "tech.paiter.medtest.models.Estado", 
+    "nome" : "São Paulo", 
+    "sigla" : "SP"
+}
+{ 
+    "_id" : ObjectId("5a635d4f178fc75e3204e548"), 
+    "_class" : "tech.paiter.medtest.models.Estado", 
+    "nome" : "Rio de Janeiro", 
+    "sigla" : "RJ"
+}
+{ 
+    "_id" : ObjectId("5a635d77178fc75e3204e549"), 
+    "_class" : "tech.paiter.medtest.models.Estado", 
+    "nome" : "Manaus", 
+    "sigla" : "MA"
+}

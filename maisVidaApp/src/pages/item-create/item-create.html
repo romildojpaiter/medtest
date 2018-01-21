@@ -1,0 +1,75 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button (click)="cancel()">
+        <span color="primary" showWhen="ios">
+          {{ 'CANCEL_BUTTON' | translate }}
+        </span>
+        <ion-icon name="md-close" showWhen="core,android,windows"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{ 'ITEM_CREATE_DOCTOR_TITLE' | translate }}</ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="done()" [disabled]="!isReadyToSave" strong>
+        <span color="primary" showWhen="ios">
+          {{ 'DONE_BUTTON' | translate }}
+        </span>
+        <ion-icon name="md-checkmark" showWhen="core,android,windows"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <form *ngIf="form" [formGroup]="form" (ngSubmit)="done()">
+
+    <ion-list>
+      <ion-item>
+        <ion-input type="text" placeholder="Primeiro Nome" formControlName="primeiroNome"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" placeholder="Último Nome" formControlName="ultimoNome"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-input type="text" placeholder="email@email.com" formControlName="email"></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label>Especialidade</ion-label>
+          <ion-select formControlName="especialidade" [compareWith]="compareDescricaoFn">
+            <ion-option *ngFor="let esp of especialidades" [value]="esp">
+              {{esp.descricao}}
+            </ion-option>
+          </ion-select>
+      </ion-item>   
+      <ion-item>
+          <ion-label>Estado</ion-label>
+          <ion-select formControlName="estado" [compareWith]="compareEstadoFn">
+            <ion-option *ngFor="let est of estados" [value]="est">
+              {{est.nome}}
+            </ion-option>
+          </ion-select>
+      </ion-item>
+      <ion-item>
+          <ion-label>Status</ion-label>
+          <ion-select formControlName="status" [compareWith]="compareDescricaoFn">
+            <ion-option *ngFor="let sta of status" [value]="sta">
+              {{sta.descricao}}
+            </ion-option>
+          </ion-select>
+      </ion-item>      
+      <ion-item>
+          <ion-input type="text" placeholder="Cidade" formControlName="cidade"></ion-input>
+      </ion-item>      
+      <ion-item>
+          <ion-label>Ativo</ion-label>
+          <ion-toggle formControlName="ativo" (ionChange)="onChangeAtivo" ></ion-toggle>
+      </ion-item>
+    </ion-list>
+
+  </form>
+
+</ion-content>

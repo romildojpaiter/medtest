@@ -1,0 +1,32 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ 'LIST_MASTER_DOCTOR' | translate }}</ion-title>
+
+    <ion-buttons end>
+      <button ion-button icon-only (click)="addItem()">
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item-sliding *ngFor="let medico of medicos">
+      <button ion-item (click)="openItem(medico)">
+        <h2>{{medico.primeiroNome}} {{medico.ultimoNome}} </h2>
+        <p>{{medico.especialidade}}</p>
+        <ion-note item-end>{{medico.email}}</ion-note>
+      </button>
+
+      <ion-item-options>
+        <button ion-button color="danger" (click)="deleteItem(medico.id)">
+          {{ 'DELETE_BUTTON' | translate }}
+        </button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

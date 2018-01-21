@@ -1,0 +1,10 @@
+{ 
+    "_id" : ObjectId("5a6383b1178fc70897ed4db9"), 
+    "_class" : "tech.paiter.medtest.models.Status", 
+    "descricao" : "Ocupado"
+}
+{ 
+    "_id" : ObjectId("5a6383b9178fc70897ed4dba"), 
+    "_class" : "tech.paiter.medtest.models.Status", 
+    "descricao" : "Disponível"
+}

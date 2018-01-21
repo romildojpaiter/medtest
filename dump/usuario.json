@@ -1,0 +1,7 @@
+{ 
+    "_id" : ObjectId("5a63309e178fc7288c8df9d7"), 
+    "_class" : "tech.paiter.medtest.models.Usuario", 
+    "nome" : "Romildo Jozue Paiter", 
+    "email" : "admin@admin.com", 
+    "senha" : "admin"
+}
